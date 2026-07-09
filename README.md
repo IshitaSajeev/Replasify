@@ -1,20 +1,7 @@
-# Replasify
+# ♻️ Replasify
 
 A full-stack web application built with Django and Bootstrap, featuring a modern dashboard, service listings, and user engagement tools.
 
-## Table of Contents
-
-- [Project Overview](#project-overview)
-- [Features](#features)
-- [Technologies Used](#technologies-used)
-- [Project Structure](#project-structure)
-- [Installation](#installation)
-- [Configuration](#configuration)
-- [Running the Application](#running-the-application)
-- [Database](#database)
-- [Static Files](#static-files)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Project Overview
 
@@ -46,9 +33,11 @@ Replasify is a Django-based web application designed to provide users with a com
 - **Swiper** - Touch slider carousel
 
 ### Additional Libraries
-- **BeautifulSoup4** - HTML parsing
-- **Jupyter** - Interactive computing
-- **Matplotlib** - Data visualization
+Bootstrap Icons
+Swiper.js
+AOS (Animate On Scroll)
+GLightbox
+
 
 ## Project Structure
 
@@ -96,12 +85,12 @@ Replasify/
 ### Prerequisites
 - Python 3.8 or higher
 - pip (Python package manager)
-- Virtual environment (recommended)
 
 ### Setup Steps
 
-1. **Clone the repository** (if applicable)
+1. **Clone the repository** 
    ```bash
+   git clone https://github.com/IshitaSajeev/Replasify.git 
    cd Replasify
    ```
 
@@ -127,26 +116,6 @@ Replasify/
    pip install -r requirements.txt
    ```
 
-## Configuration
-
-### Django Settings
-
-Edit [Project3/settings.py](Project3/settings.py) to configure:
-
-- **DEBUG**: Set to `False` for production
-- **ALLOWED_HOSTS**: Add your domain names for production
-- **SECRET_KEY**: Change this for production (currently in development mode)
-- **DATABASES**: Configure your database connection
-- **STATIC_URL**: Path for static files
-
-### Important Security Notes
-
-⚠️ **Before deploying to production:**
-- Change the `SECRET_KEY` in settings.py
-- Set `DEBUG = False`
-- Update `ALLOWED_HOSTS` with your actual domain
-- Configure proper database settings (not SQLite)
-- Use environment variables for sensitive configuration
 
 ## Running the Application
 
@@ -216,31 +185,15 @@ Static files are organized in the `static/` directory:
 - **Images**: Blog images, team photos, and backgrounds
 - **Vendor Libraries**: Third-party components
 
-### Development
 
-Static files are served automatically by Django during development.
+### Future Enhancements
 
-### Production
+- AI-based waste classification
+- Reward points system
+- Real-time recycling tracking
+- GIS integration for nearby recycling centers
+- Email notification system
 
-Run `python manage.py collectstatic` to prepare static files for production deployment.
+### License
 
-## Contributing
-
-1. Create a new branch for your feature
-2. Make your changes
-3. Test thoroughly
-4. Submit a pull request
-
-## Support
-
-For issues or questions about this project, please create an issue or contact the development team.
-
-## License
-
-This project is provided as-is for educational and development purposes.
-
----
-
-**Last Updated**: July 2026
-**Django Version**: 5.1.5
-**Python Version**: 3.x
+This project is developed for educational and learning purposes.
