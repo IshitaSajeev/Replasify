@@ -5,7 +5,8 @@ A full-stack web application built with Django and Bootstrap, featuring a modern
 
 ## Project Overview
 
-Replasify is a Django-based web application designed to provide users with a comprehensive platform for service discovery, engagement, and account management. The application features a responsive design with a modern UI built using Bootstrap and custom CSS.
+Replasify is a Django-based web application designed to connect users with plastic recycling initiatives and green services. The platform provides a streamlined space for service discovery, rate tracking, and account management, wrapped in a responsive, modern UI built using Bootstrap, custom CSS, and fluid scroll animations.
+
 
 ## Features
 
@@ -185,14 +186,18 @@ Static files are organized in the `static/` directory:
 - **Images**: Blog images, team photos, and backgrounds
 - **Vendor Libraries**: Third-party components
 
+## 📸 Screenshots
+
+### Home Page
+<img src="Screenshots/Home.png" width="900">
 
 ### Future Enhancements
 
-- AI-based waste classification
-- Reward points system
-- Real-time recycling tracking
-- GIS integration for nearby recycling centers
-- Email notification system
+- AI-powered Waste Classification: Integrated image recognition to identify recyclable plastics.
+- Gamified Rewards System: Points allocation engine for verified recycling activities.
+- Real-time Logistics Tracking: Live visual status maps for waste collection.
+- GIS Locator Engine: Map API integration to locate nearby physical drop-off hubs.
+- Automated Notification Matrix: Triggered transactional emails and status updates.
 
 ### License
 
