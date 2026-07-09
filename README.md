@@ -186,10 +186,6 @@ Static files are organized in the `static/` directory:
 - **Images**: Blog images, team photos, and backgrounds
 - **Vendor Libraries**: Third-party components
 
-## 📸 Screenshots
-
-### Home Page
-<img src="Screenshots/Home.png" width="900">
 
 ### Future Enhancements
 
