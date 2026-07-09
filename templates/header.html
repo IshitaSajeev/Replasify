@@ -1,0 +1,86 @@
+
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Plastic Recycling Portal</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon (2).png' %}" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+  <link href="{% static '_content/Cypher/style/cypher.min.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/home-page.css' %}" rel="stylesheet" />
+  <link href="{% static 'TKWWebsite.Client.styles.css' %}" rel="stylesheet" />
+  
+</head>
+
+<body class="index-page">
+
+  <header id="header" class="header d-flex align-items-center position-relative" style="background-color:rgba(0, 0, 0, 0);">
+    <div class="container-fluid position-relative d-flex align-items-center justify-content-between">
+
+      <a href="{% url 'home' %}" class="logo align-items-center">
+        <img src="{% static 'assets/img/logo3.png' %}" alt="RePlasify" >
+        <!-- <h1 class="sitename">AgriCulture</h1> Fallback logo text -->
+    </a>
+  
+    <nav id="navmenu" class="navmenu">
+      <ul style="background-color: rgb(6, 75, 22/0%);">
+        <li><a href="{% url 'home' %}" class="active" style="color: rgb(240, 243, 241);">Home</a></li>
+        <li><a href="{% url 'about' %}" style="color: rgb(240, 243, 241);">About Us</a></li>
+        <li class="dropdown"><a href="{% url 'problem_statement' %}" style="color: rgb(240, 243, 241); "><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+          <ul style="background-color: rgb(0, 0, 0);">
+            <li>
+              <div class="title-md pb-4 fg-success-2 border-bottom container-border-success me-8 mb-5" b-11aoknir5q>For Individuals</div></li>
+            <hr>
+                <li><a href="#" style="color: rgb(240, 243, 241);">Scrap Collection </a></li>
+                <li><a href="#" style="color: rgb(240, 243, 241);">Zero Waste Society</a></li>
+                <li><a href="#" style="color: rgb(240, 243, 241);">Vehical Scrapping</a></li>
+                <br>
+                <li>
+                  <div class="title-md pb-4 fg-success-2 border-bottom container-border-success me-8 mb-5" b-11aoknir5q>For Businesses</div>
+                </li>
+            <hr>
+                <li><a href="#" style="color: rgb(240, 243, 241);">Scrap Collection</a></li>
+                <li><a href="#" style="color: rgb(240, 243, 241);">Zero Waste</a></li>
+                <li><a href="#" style="color: rgb(240, 243, 241);">Zero Waste Event</a></li>
+                <li><a href="#" style="color: rgb(240, 243, 241);" >CSR Services</a></li>
+              </ul>
+        </li>
+        <li><a href="{% url 'checkrate' %}" style="color: rgb(240, 243, 241);">Check Rate List</a></li>
+    
+            <div class="nav-buttons">
+              <a class="nav-btn-secondary" href="{% url 'reg' %}" style="color: rgb(248, 248, 248);">Reg. Form</a>
+              </div>
+
+          <div class="nav-buttons">
+            <a class="nav-btn-secondary" href="{% url 'login' %}" style="color: rgb(248, 248, 248);">Login</a>
+            </div>
+      </ul>
+      <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+    </nav>
+  </div>
+</header>    
+</body>
+</html>

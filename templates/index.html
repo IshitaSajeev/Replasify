@@ -1,0 +1,537 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Replasify</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="{% static 'assets/img/favicon (2).png' %}" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&family=Marcellus:wght@400&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="{% static 'assets/vendor/bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/bootstrap-icons/bootstrap-icons.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/aos/aos.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/swiper/swiper-bundle.min.css' %}" rel="stylesheet">
+  <link href="{% static 'assets/vendor/glightbox/css/glightbox.min.css' %}" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="{% static 'assets/css/main.css' %}" rel="stylesheet">
+
+  
+</head>
+
+<body class="index-page">
+
+    {% include 'header.html' %}
+
+  <main class="main">
+
+          <!-- Hero Section -->
+          <section id="hero" class="hero section dark-background">
+      
+            <main class="content">
+              <section class="dark-theme vh-100"></section>
+              <!-- Video Background -->
+              
+              <div class="video-container">
+                <video class="responsive-video video-play" autoplay muted loop class="video-background">
+                  <source src="{% static 'assets/img/hero-video-mp4.mp4' %}" type="video/mp4">
+                  Your browser does not support the video tag.
+                </video>
+                <!-- Text Overlay assets/img/hero-video-mp4.mp4-->
+                <div class="text-overlay">
+                  <b><h1 class="pb-5" style="color: rgb(0, 0, 0); background-color: rgb(3, 97, 25);">"Scrap Today,<br>Brighter Tomorrow!"
+                  </h1></b>
+                  <b><h6 class="pb-5">Recycling takes little efforts on your part, for a big difference to our world.
+                  </h6></b>
+              
+                </div>
+              </div>
+          <!-- /Video Background -->
+        <div class="backdrop position-absolute top-0 start-0 bottom-0 end-0"></div>
+          <div class="text-center position-absolute pb-6 bottom-0 start-50 end-50 translate-n50 w-100 d-none d-lg-block"><a href="#section-2"><svg width="36.75" height="17.25" viewBox="0 0 49 23" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M49 1.44368C49 1.77329 48.8588 2.05675 48.5764 2.29407L26.0957 22.466C25.7003 22.822 25.1731 23 24.5141 23C23.8363 23 23.2997 22.822 22.9043 22.466L0.395389 2.29407C0.131796 2.05675 0 1.77329 0 1.44368C0 1.06134 0.197695 0.725136 0.593084 0.435082C1.0073 0.145027 1.48742 0 2.03343 0C2.69241 0 3.22901 0.18458 3.64323 0.55374L24.5141 19.282L45.3568 0.55374C45.771 0.18458 46.3076 0 46.9666 0C47.5126 0 47.9833 0.145027 48.3787 0.435082C48.7929 0.725136 49 1.06134 49 1.44368Z" fill="white"></path></svg></a></div></section>
+            <section class="h-auto p-0" id="section-2"><div class="container-bg-2">
+
+              <div class="carousel"><div class="carousel-container " ><div></div>
+                </div>
+      
+
+    </section><!-- /Hero Section -->
+
+     <!-- Individual and business part -->
+
+                  <section style="background-color: rgb(3, 50, 12);">
+                    <div class="h-100 d-flex flex-column justify-content-center mx-auto px-6 py-8 gap-8" style="max-width:900px">
+                      <div class="d-flex flex-column flex-lg-row container-bg-1 rounded-5 mt-6 align-items-center">
+                        <div class="container-bg-3 px-9 d-none d-lg-block rounded-start-5" style="min-width: 18rem;">
+                          <img class="mt-n6 w-auto" src="{% static 'assets/img/individual1.png'  %}" alt="individual" style="height: 20rem;">
+                        </div>
+                        
+                        <!-- Individual block -->
+                        <div class="p-6 text-center text-lg-start"><div class="title-sm fg-default-3 pb-2">Empowering</div>
+                            <h3 class="fg-success-2">Individuals</h3>
+                            <div class="fg-default-2">by providing safe disposal ways to ensure healthy environment &amp; sustainable living.</div>
+                              <div class="pb-3 pt-6"><a href="#" class="label-md">&nbsp;Learn more </a>
+                              </div>
+                            </div>
+                        </div>
+                         <!-- /Individual block -->
+
+                  <!--- Business block -->
+
+                  <div class="d-flex flex-column flex-lg-row container-bg-1 rounded-5 mt-6 align-items-center">
+                    <div class="p-6 text-center text-lg-end order-2 order-lg-1">
+                      <div class="title-sm fg-default-3 pb-2">Enabling</div>
+                      <h3 class="fg-success-2">Businesses</h3>
+                      <div class="fg-default-2">to offset their carbon footprint for eco-friendly organizational practices.</div>
+                      <div class="pb-3 pt-6"><a href="#" class="label-md">&nbsp;Learn more</i></a>
+                      </div>
+                    </div>
+                    <div class="container-bg-3 px-9 rounded-end-5 d-none d-lg-block order-1 order-lg-2" style="min-width: 18rem;">
+                      <img class="mt-n6 w-auto" src="{% static 'assets/img/business.png' %}" alt="business" style="height: 20rem;"></div>
+                      <div class="container-bg-3 px-9 rounded-top-5 d-block d-lg-none order-1 order-lg-2 w-100 text-center">
+                        <img class="mt-n6 w-auto" src="{% static 'images/landing/business-man.webp' %}" alt="business" style="max-height: 18rem;">
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <!-- /Individual and business part -->
+
+            <!-- Our Eco-System Towards -->
+            <section style="background-color: rgb(3, 50, 12);">
+              <div class="container h-100 d-flex flex-column justify-content-center">
+                <div class="row align-items-center">
+                  <div class="col-lg-6 col-12">
+                    <img class="mt-n6 w-auto" src="{% static 'assets/img/eco-system.png' %}" alt="business" style="max-height: 30rem;">
+                  </div>
+                  <div class="col-lg-5 offset-lg-1 col-12 order-1 order-lg-2">
+                    <div class="pt-10 d-block d-lg-none text-center">Our Eco-System Towards</div>
+                    <h3 style="color: rgb(57, 224, 76);">
+                      Sustainability &
+                      Circular Economy
+                    </h3>
+                    <div class="body-lg fg-inverse-3 pb-4"><span style="color: rgb(4, 97, 15);"><b>Our Commitment to Sustainability</b> </span> <p style="color: rgb(252, 252, 252);">
+We believe that every piece of waste has the potential to be transformed into something valuable. Our mission is to reduce the environmental footprint by promoting responsible waste management and recycling. Together, we can create a cleaner, greener future.
+Our Commitment to responsible resource management drives innovative solutions for waste diversion and recycling. 
+                      We employ proven, cost-effective methods to minimize environmental impact and maximize resource recovery. 
+                      By transforming waste into valuable materials, we help businesses and communities achieve their sustainability goals,
+                       promote a circular economy, and build a healthier planet for future generations. </p>
+                    <div class="py-4"><a class="btn-primary" href="/business">Learn More</a>
+                    </div>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!-- /Our Eco-System Towards -->
+
+            <!-- our branch map -->
+            <section style="background-color: rgb(3, 50, 12);;">
+              <div class="container h-100 d-flex flex-column justify-content-center">
+                <h2 class="pt-10 d-block d-lg-none text-center">Our <span class="fg-success-2">Presence</span> Across Nation</h2>
+                <div class="row align-items-center">
+                  <div class="col-12 col-lg-6 order-lg-1 order-2"><h2 class="d-none d-lg-block">Our 
+                    <span class="fg-success-2">Presence</span> Across Nation</h2>
+                      <div class="py-6 body-lg text-center text-lg-start">
+                          The Kabadiwala has established its services in <span style="color: rgb(2, 52, 8);"><b> Major cities of India </b></span> and is now expanding its reach in other parts of the country.
+                      </div>
+                      <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start gap-3"><span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Bhopal</span>
+                          <span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Indore</span>
+                          <span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Raipur</span>
+                          <span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Nagpur</span>
+                          <span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Lucknow</span>
+                          <span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Ahmedabad</span>
+                          <span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Mumbai</span>
+                          <span class="label-md container-bg-success-1 px-6 py-4 rounded-3 fg-inverse-1">Pune</span>
+                          <div class=" container-bg-warning-2 rounded-3 text-center">
+                            <h6 class="label-md container-bg-2 rounded-3 py-2 px-6 m-0">Bangalore</h6>
+                              <div class="body-sm fg-warning-1">coming soon</div>
+                          </div>
+                          <div class=" container-bg-warning-2 rounded-3 text-center">
+                            <h6 class="label-md container-bg-2 rounded-3 py-2 px-6 m-0">Hyderabad</h6>
+                              <div class="body-sm fg-warning-1">coming soon</div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-5 offset-lg-1 col-12 order-1 order-lg-2">
+                        <img src="{% static 'assets/img/map.png' %}" alt="india-map-with-markers" class="mw-100">
+                      </div>
+                    </div>
+                  </div>
+            </section>
+            <!-- /our branch map -->
+            <script src="{% static 'https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js' %}"></script>
+
+<!-- Services Section -->
+<section id="services" class="services section" style="background-color: rgb(3, 50, 12);">
+
+  <!-- Section Title -->
+  <div class="container section-title" data-aos="fade-up">
+    <h1 style="color: azure;">OUR SERVICES</h1>
+    <p style="color: azure;">Attaining sustainable solutions with ease.</p>
+  </div>
+  <!-- End Section Title -->
+
+  <!-- Services section blocks -->
+  <div class="content">Z
+    <div class="container">
+      <div class="row g-0">
+  <!-- Services blocks 1 --> 
+  <div style="background-color: rgb(3, 50, 12);" class="col-lg-3 col-md-6">
+    <div class="service-item">
+      <div class="service-item-icon">
+        <img src="{% static 'assets/img/scrap collection.png' %}" style="height:80px;width:70px;"/>
+      </div>
+      <div class="service-item-content">
+        <h3 class="service-heading">Scrap Collection</h3>
+        <p>
+          Digitised solution for the door-to-door free pickup of 40+ recyclables
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Services blocks 2 --> 
+  <div class="col-lg-3 col-md-6">
+    <div class="service-item">
+      <div class="service-item-icon">
+        <img src="{% static 'assets/img/Zero waste collection.jpg' %}" style="height:80px;width:70px;"/>
+      </div>
+      <div class="service-item-content">
+        <h3 class="service-heading">Zero Waste Society</h3>
+        <p>
+          Serving the Residential Societies in achieving their zero waste goals.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Services blocks 3 --> 
+  <div class="col-lg-3 col-md-6">
+    <div class="service-item">
+      <div class="service-item-icon">
+        <img src="{% static 'assets/img/vec scrap.png' %}" style="height:80px;width:70px;"/>
+      </div>
+      <div class="service-item-content">
+        <h3 class="service-heading">Vehicle Scrapping Service</h3>
+        <p>
+          Assisting people in getting rid of their old vehicles sustainably
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Services blocks 4 --> 
+  <div class="col-lg-3 col-md-6">
+    <div class="service-item">
+      <div class="service-item-icon">
+        <img src="{% static 'assets/img/wasteservice.png' %}" style="height:80px;width:70px;"/>
+      </div>
+      <div class="service-item-content">
+        <h3 class="service-heading">Zero waste services</h3>
+        <p>
+Serving the Institutes/Offices/Events in achieving their zero waste goals.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Services blocks 5 --> 
+  <div class="col-lg-3 col-md-6">
+    <div class="service-item">
+      <div class="service-item-icon">
+        <img src="{% static 'assets/img/crs.png' %}" style="height:80px;width:70px;"/>
+      </div>
+      <div class="service-item-content">
+        <h3 class="service-heading">CRS Activity</h3>
+        <p>
+Planning, designing, and successfully executing brand's CSR campaigns as per their objectives.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Services blocks 6 --> 
+  <div class="col-lg-3 col-md-6">
+    <div class="service-item">
+      <div class="service-item-icon">
+        <img src="{% static 'assets/img/shredding.png' %}" style="height:80px;width:70px;"/>
+      </div>
+      <div class="service-item-content">
+        <h3 class="service-heading">Shredding service</h3>
+        <p>
+          Aiding Businesses in the safe & secure disposal of their confidential documents.
+        </p>
+      </div>
+    </div>
+  </div>
+  <!-- Services blocks 7 --> 
+  <div class="col-lg-3 col-md-6">
+    <div class="service-item">
+      <div class="service-item-icon">
+        <img src="{% static 'assets/img/des.jpg' %}" style="height:80px;width:70px;"/>
+      </div>
+      <div class="service-item-content">
+        <h3 class="service-heading">Dismantling service</h3>
+        <p>
+          Providing holistic approach to implement circular solutions to the scrap disposal.
+        </p>
+      </div>
+    </div>
+  </div>
+  
+    </div>
+    </div>
+    </div>
+    </div>
+</section>
+<!-- /Services Section -->
+
+    <!-- About Section -->
+    <section id="about" class="about section" >
+
+      <div class="content" style="background-color:rgb(0, 0, 0);" >
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <img src="{% static 'assets/img/choose.png' %}" alt="Image " class="img-fluid img-overlap" data-aos="zoom-in">
+            </div>
+            <div class="col-lg-5 ml-auto" data-aos="fade-up" data-aos-delay="100">
+              <h3 class="content-subtitle text-white opacity-50">Why Choose Us</h3>
+              <h2 class="content-title mb-4">
+                More than <strong>15 year experience</strong> in plastic recycling industy
+              </h2>
+              <p class="opacity-50">
+               Championing Sustainability We are committed to reducing plastic waste and creating a greener planet through innovative recycling solutions.</p>
+                <p class="opacity-50">
+Cutting-Edge Technology Utilizing state-of-the-art equipment, we ensure efficient, high-quality recycling for maximum impact.
+</p>
+
+<p class="opacity-50">
+Trusted Experience With [X years] of expertise in the recycling industry, we deliver reliable and effective results.
+</p>
+
+<p class="opacity-50">
+Tailored Solutions Our team works closely with clients to provide personalized services that meet their recycling needs.
+</p>
+
+<p class="opacity-50">
+Certified Excellence Certified and compliant with environmental regulations, we adhere to the highest standards of sustainability.
+</p>
+
+<p class="opacity-50">
+Building a Better Tomorrow Your partnership with us directly contributes to cleaner communities and a healthier future 
+              </p>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /About Section -->
+
+    <!-- Services 2 Section -->
+    <section id="services-2" class="services-2 section dark-background">
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <p>OUR INITIATIVES</p>
+      </div><!-- End Section Title -->
+
+      <div class="services-carousel-wrap">
+        <div class="container">
+          <div class="swiper init-swiper">
+            <script type="application/json" class="swiper-config">
+              {
+                "loop": true,
+                "speed": 600,
+                "autoplay": {
+                  "delay": 5000
+                },
+                "slidesPerView": "auto",
+                "pagination": {
+                  "el": ".swiper-pagination",
+                  "type": "bullets",
+                  "clickable": true
+                },
+                "navigation": {
+                  "nextEl": ".js-custom-next",
+                  "prevEl": ".js-custom-prev"
+                },
+                "breakpoints": {
+                  "320": {
+                    "slidesPerView": 1,
+                    "spaceBetween": 40
+                  },
+                  "1200": {
+                    "slidesPerView": 3,
+                    "spaceBetween": 40
+                  }
+                }
+              }
+            </script>
+            <button class="navigation-prev js-custom-prev">
+              <i class="bi bi-arrow-left-short"></i>
+            </button>
+            <button class="navigation-next js-custom-next">
+              <i class="bi bi-arrow-right-short"></i>
+            </button>
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="service-item">
+                  <div class="service-item-contents">
+                    <a href="#">
+                      <span class="service-item-category">We do</span>
+                      <h2 class="service-item-title">Plastic Processing</h2>
+                    </a>
+                  </div>
+                  <img src="{% static 'assets/img/plastic processing.jpg' %}" alt="Image" class="img-fluid">
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service-item">
+                  <div class="service-item-contents">
+                    <a href="#">
+                      <span class="service-item-category">We do</span>
+                      <h2 class="service-item-title">Collection</h2>
+                    </a>
+                  </div>
+                  <img src="{% static 'assets/img/collection.jpeg' %}" alt="Image" class="img-fluid" style="height:100%;width:100%;" >
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service-item">
+                  <div class="service-item-contents">
+                    <a href="#">
+                      <span class="service-item-category">We produce</span>
+                      <h2 class="service-item-title">Granuales</h2>
+                    </a>
+                  </div>
+                  <img src="{% static 'assets/img/granuales.jpeg' %}"  alt="Image" class="img-fluid" style="height:100%;width:100%;">
+                </div>
+              </div>
+
+              <div class="swiper-slide">
+                <div class="service-item">
+                  <div class="service-item-contents">
+                    <a href="#">
+                      <span class="service-item-category">We create</span>
+                      <h2 class="service-item-title">Awareness</h2>
+                    </a>
+                  </div>
+                  <img src="{% static 'assets/img/awareness.jpeg' %}"  alt="Image" class="img-fluid" style="height:200%;width:200%;" >
+                </div>
+              </div>
+              <div class="swiper-slide">
+                <div class="service-item">
+                  <div class="service-item-contents">
+                    <a href="#">
+                      <span class="service-item-category">Bio-Degradeable</span>
+                      <h2 class="service-item-title">Products</h2>
+                    </a>
+                  </div>
+                  <img src="{% static 'assets/img/product.jpg' %}"  alt="Image" class="img-fluid" style="height:100%;width:100%;">
+                </div>
+              </div>
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
+        </div>
+      </div>
+    </section><!-- /Services 2 Section -->
+
+      <section id="contact" class="contact section">
+       <div class="container"><div class="display-sm text-center">
+                Get in touch with us
+            </div>
+            <div class="label-lg mt-6 text-center">
+              <p class="d-inline fg-inverse-2">Any question or remarks? Just write us a</p>
+                <p class="d-inline fg-success-2">message!</p></div>
+            <div class="container-bg-1 m-5 mt-lg-10 rounded-6"><div class="row"><div class="col-lg-5 pe-lg-10 d-none d-lg-block">
+              <div class="card card-media-top h-100 container-bg-1 rounded-start-6"><div class="card-body m-7 pt-lg-10 ps-lg-10 pe-lg-10 container-bg-success-1 rounded-6 h-100"><div class="headline-md fg-inverse-1">
+                                   Contact Information
+                                </div>
+                                <div class="body-lg mt-4 fg-inverse-1">
+                                    Fill up the form and our Team will get back to you within 24 hours
+                                </div>
+                                <br>
+                                    <div class="d-flex flex-row mt-6"><div class="fg-inverse-1">
+                                      <svg width="23" height="23" viewBox="0 0 23 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M14.0514 5C15.0281 5.19057 15.9258 5.66826 16.6295 6.37194C17.3331 7.07561 17.8108 7.97326 18.0014 8.95M14.0514 1C16.0807 1.22544 17.973 2.13417 19.4176 3.57701C20.8623 5.01984 21.7734 6.91101 22.0014 8.94M21.0014 16.92V19.92C21.0025 20.1985 20.9455 20.4742 20.8339 20.7293C20.7223 20.9845 20.5587 21.2136 20.3535 21.4019C20.1483 21.5901 19.906 21.7335 19.6421 21.8227C19.3783 21.9119 19.0988 21.9451 18.8214 21.92C15.7442 21.5856 12.7884 20.5341 10.1914 18.85C7.77523 17.3147 5.72673 15.2662 4.1914 12.85C2.50138 10.2412 1.44964 7.27099 1.1214 4.18C1.09641 3.90347 1.12927 3.62476 1.2179 3.36162C1.30652 3.09849 1.44897 2.85669 1.63616 2.65162C1.82336 2.44655 2.0512 2.28271 2.30519 2.17052C2.55917 2.05833 2.83374 2.00026 3.1114 2H6.1114C6.5967 1.99522 7.06719 2.16708 7.43516 2.48353C7.80313 2.79999 8.04348 3.23945 8.1114 3.72C8.23802 4.68007 8.47285 5.62273 8.8114 6.53C8.94594 6.88792 8.97506 7.27691 8.8953 7.65088C8.81555 8.02485 8.63026 8.36811 8.3614 8.64L7.0914 9.91C8.51495 12.4135 10.5879 14.4864 13.0914 15.91L14.3614 14.64C14.6333 14.3711 14.9766 14.1858 15.3505 14.1061C15.7245 14.0263 16.1135 14.0555 16.4714 14.19C17.3787 14.5286 18.3213 14.7634 19.2814 14.89C19.7672 14.9585 20.2108 15.2032 20.5279 15.5775C20.8451 15.9518 21.0136 16.4296 21.0014 16.92Z" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                                        <div class="title-lg ms-5"><a class="fg-inverse-1" href="tel:+917697260260">+91-7697260260</a></div></div>
+                                <br>
+                                    <div class="d-flex flex-row mt-6"><div class="fg-inverse-1"><svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M3 1H19C20.1 1 21 1.9 21 3V15C21 16.1 20.1 17 19 17H3C1.9 17 1 16.1 1 15V3C1 1.9 1.9 1 3 1Z" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M21 3L11 10L1 3" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                                        <div class="title-lg ms-5"><a class="fg-inverse-1" href="mailto:contact@thekabadiwala.com">Info@Replasify.com</a></div></div>
+                                <br>
+                                    <div class="d-flex flex-row mt-6"><div class="fg-inverse-1"><svg width="20" height="24" viewBox="0 0 20 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M19 10C19 17 10 23 10 23C10 23 1 17 1 10C1 7.61305 1.94821 5.32387 3.63604 3.63604C5.32387 1.94821 7.61305 1 10 1C12.3869 1 14.6761 1.94821 16.364 3.63604C18.0518 5.32387 19 7.61305 19 10Z" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path>
+                                                <path d="M10 13C11.6569 13 13 11.6569 13 10C13 8.34315 11.6569 7 10 7C8.34315 7 7 8.34315 7 10C7 11.6569 8.34315 13 10 13Z" stroke="currentcolor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></path></svg></div>
+                                        <div class="ms-5 title-lg fg-inverse-1">
+                                            Replasify, B/20, New Marg, Navi Mumbai, 411012
+                                        </div></div></div></div></div>
+                    <div class="col-12 p-10  col-lg-7"><div class="col-lg-8">
+                    
+                      <center>  
+                      <div>
+                        <img src="{% static 'assets/img/phone.png' %}"  alt="Image" class="img-fluid" />
+                      </br>
+                    </div>
+                      
+                      <form action="{% url 'reg' %}" class="inline">
+                        <button class="btn btn-primary btn-lg" >contact us </button>
+                    </form>
+          
+          
+                    </div><!-- End Contact Form -->
+          
+                  </div>
+          
+                </div>
+          
+              </section><!-- /Contact Section -->
+
+    
+
+  </main>
+
+      {% include 'footer.html' %}
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="{% static 'assets/vendor/bootstrap/js/bootstrap.bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/php-email-form/validate.js' %}"></script>
+  <script src="{% static 'assets/vendor/aos/aos.js' %}"></script>
+  <script src="{% static 'assets/vendor/swiper/swiper-bundle.min.js' %}"></script>
+  <script src="{% static 'assets/vendor/glightbox/js/glightbox.min.js' %}"></script>
+
+  <!-- Main JS File -->
+  <script src="{% static 'assets/js/main.js' %}"></script>
+  <!--Start of Tawk.to Script-->
+<script type="text/javascript">
+  var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+  (function(){
+  var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+  s1.async=true;
+  s1.src='https://embed.tawk.to/67d9c5f2227a2c190b2093d7/1imlaqftn';
+  s1.charset='UTF-8';
+  s1.setAttribute('crossorigin','*');
+  s0.parentNode.insertBefore(s1,s0);
+  })();
+  </script>
+  <!--End of Tawk.to Script-->
+
+</body>
+
+</html>
