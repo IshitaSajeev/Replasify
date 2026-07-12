@@ -36,7 +36,7 @@ Replasify is a Django-based web application designed to connect users with plast
 ### Additional Libraries
 Bootstrap Icons
 Swiper.js
-AOS (Animate On Scroll)
+AOS
 GLightbox
 
 
